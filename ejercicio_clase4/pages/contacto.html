@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="../img/logo.png" width="150" alt="Logo" />
+      <h1 class="h1_header">Mi Estrella Guía</h1>
+      <h2 class="h2_header">Accesorios, Deco y Más...</h2>
+    </header>
+    <nav>
+      <ul class="nav">
+        <li class="elem_nav"><a href="../index.html">Ir al Inicio</a></li>
+        <li class="elem_nav"><a href="./historia.html">Quiénes Somos</a></li>
+        <li class="elem_nav">
+          <a href="./horario.html">Horario de Atención</a>
+        </li>
+        <li class="elem_nav"><a href="./productos.html">Productos</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h2 class="tit_h2">
+        Contáctate con nosotros completando el siguiente formulario:
+      </h2>
+      <form class="formulario">
+        <label for="nombre">Nombre: </label>
+        <input
+          type="text"
+          name="nombre"
+          id="nombre"
+          placeholder="Nombre"
+          maxlength="30"
+        /><br /><br />
+        <label for="apellido">Apellido: </label>
+        <input
+          type="text"
+          name="apellido"
+          id="apellido"
+          placeholder="Apellido"
+          maxlength="25"
+        /><br /><br />
+        <label for="fecha_nac">Fecha de Nacimiento: </label>
+        <input
+          type="date"
+          name="fecha_nac"
+          id="fecha_nac"
+          placeholder="Fecha de Nacimiento"
+          maxlength="10"
+        /><br /><br />
+        <label for="domicilio">Domicilio: </label>
+        <input
+          type="text"
+          name="domicilio"
+          id="domicilio"
+          placeholder="Domicilio"
+          maxlength="30"
+        /><br /><br />
+        <label for="localidad">Localidad: </label>
+        <input
+          type="text"
+          name="localidad"
+          id="localidad"
+          placeholder="Localidad"
+          maxlength="30"
+        /><br /><br />
+        <label for="selec_prov">Selecciona tu Provincia: </label>
+        <select name="selec_prov" id="selec_prov">
+          <option value="selec_prov">Selecciona tu Provincia</option>
+          <option value="bs_as">Buenos Aires</option>
+          <option value="c_bs_as">CABA</option>
+          <option value="cat">Catamarca</option>
+          <option value="cha">Chaco</option>
+          <option value="chu">Chubut</option>
+          <option value="cba">Córdoba</option>
+          <option value="ctes">Corrientes</option>
+          <option value="en_rs">Entre Ríos</option>
+          <option value="for">Formosa</option>
+          <option value="juj">Jujuy</option>
+          <option value="lpa">La Pampa</option>
+          <option value="la_Ri">La Rioja</option>
+          <option value="mdz">Mendoza</option>
+          <option value="mns">Misiones</option>
+          <option value="nqn">Neuquén</option>
+          <option value="rne">Río Negro</option>
+          <option value="sta">Salta</option>
+          <option value="scr">San Juan</option>
+          <option value="scr">San Luis</option>
+          <option value="scr">Santa Cruz</option>
+          <option value="sfe">Santa Fe</option>
+          <option value="sgo_est">Santiago del Estero</option>
+          <option value="tdf">Tierra del Fuego</option>
+          <option value="tuc">Tucumán</option></select
+        ><br /><br />
+        <label for="cod_postal">Código Postal: </label>
+        <input
+          type="text"
+          name="cod_postal"
+          id="cod_postal"
+          placeholder="Código Postal"
+          maxlength="8"
+        /><br /><br />
+        <label for="tel">Teléfono: </label>
+        <input
+          type="text"
+          name="tel"
+          id="tel"
+          placeholder="Ejemplo: 3364274665"
+          maxlength="10"
+        /><br />
+        <br />
+        <laber for="cons_o_comen">Dejar una consulta o comentario: </laber
+        ><br />
+        <textarea
+          name="cons_o_comen"
+          id="cons_o_comen"
+          cols="36"
+          rows="13"
+        ></textarea
+        ><br /><br />
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Restablecer" /><br /><br />
+      </form>
+    </main>
+    <footer>
+      <h4>&copy; CopyRight todos los derechos reservadoss</h4>
+    </footer>
+  </body>
+</html>

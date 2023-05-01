@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    min-height: 100vh;
+    background-color: rgb(220, 220, 243);
+}
+
+header {
+    background-color: rgb(207, 240, 240);
+    padding: 10px;
+}
+
+.h1_header, .h2_header {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.h1_header {
+    font-size: 60px;
+}
+
+.h2_header {
+    font-size: 50px;
+}
+
+nav {
+    padding: 5px 10px;
+    background-color: rgb(247, 229, 231);
+    overflow: hidden;
+    width: 100%;    
+}
+
+.nav {
+    display: flex;
+    justify-content: end;
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    font-size: 20px;    
+}
+
+.elem_nav {
+    padding-left: 40px;    
+}
+
+.google, .nav {
+    font-size: 20px; 
+}
+
+main {
+    padding: 10px;
+}
+
+.tit_h2 {
+    font-size: 32px;
+    text-decoration: underline;
+    color: rgb(26, 11, 11);
+    text-align: center;
+}
+
+h3 {
+    padding-top: 15px;
+    font-size: 27px;    
+}
+
+/* Index */
+
+.parrafo1, .parrafo2, .parrafo3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #3a3a3b;
+    text-align: justify;
+    padding-top: 10px;
+}
+
+.parrafo4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-top: 15px;
+    font-weight: 800;
+    text-align: center;
+}
+
+/* Horarios */
+.html {
+    font-weight: 600;
+    color: rgb(39, 39, 247);
+    font-size: 1.3em;
+}
+
+.formulario {
+    margin-top: 15px;
+    padding: 15px;
+    border: 2px rgb(218, 154, 154) solid;
+}
+
+table {
+    background-color: rgb(228, 191, 191);
+    color: rgb(4, 29, 29);
+    border: 2px #4f07f8 solid;
+}
+
+td {
+    width: 100px;
+    height: 25px;
+    text-align: center;
+}
+
+#horario {
+    font-style: italic;  
+    color: rgb(30, 82, 30)
+}
+
+/*Footer*/
+
+footer {
+    width: 100%;
+    background-color: rgb(63, 60, 60);
+    padding: 10px;
+    color: rgb(197, 238, 238);
+    text-align: center;
+}

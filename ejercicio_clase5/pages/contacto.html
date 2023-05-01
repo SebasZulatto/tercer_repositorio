@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div class="contenedor">
+      <header class="header_gral">
+        <div class="header">   
+          <div class="img_header">
+            <img src="../img/logo.png" alt="Logo" />
+          </div>
+        <div class="h1_h2_header">
+          <div class="tit_header">
+            <h1>Mi Estrella Guía</h1>      
+          </div>
+          <div class="subtit_header">
+            <h2>Accesorios, Deco y Más...</h2>        
+          </div>
+        </div>
+      </div>      
+      </header>
+    <nav>
+        <ul>
+          <div class="nav">
+          <li class="elem_nav"><a href="../index.html">Ir al Inicio</a></li>
+          <li class="elem_nav"><a href="./historia.html">Quiénes Somos</a></li>
+          <li class="elem_nav"><a href="./horario.html">Horario de Atención</a></li>
+          <li class="elem_nav"><a href="./productos.html">Productos</a></li>
+        </div>
+        </ul>      
+    </nav>
+    <main>
+      <h3 class="h3_form">Contáctate con nosotros completando el siguiente formulario:</h3>
+      <form class="formulario_contacto">
+        <div class="nombre">    
+        <label for="nombre">Nombre: </label>
+        <input
+          type="text"
+          name="nombre"
+          id="nombre"
+          placeholder="Nombre"
+          maxlength="30"
+        />
+      </div>
+      <div class="apellido">
+        <label for="apellido">Apellido: </label>
+        <input
+          type="text"
+          name="apellido"
+          id="apellido"
+          placeholder="Apellido"
+          maxlength="25"
+        />
+      </div>
+      <div class="fecha_nacim">
+        <label for="fecha_nac">Fecha de Nacimiento: </label>
+        <input
+          type="date"
+          name="fecha_nac"
+          id="fecha_nac"
+          placeholder="Fecha de Nacimiento"
+          maxlength="10"
+        />
+      </div>
+      <div class="domicilio">
+        <label for="domicilio">Domicilio: </label>
+        <input
+          type="text"
+          name="domicilio"
+          id="domicilio"
+          placeholder="Domicilio"
+          maxlength="30"
+        />
+      </div>
+      <div class="localidad">
+        <label for="localidad">Localidad: </label>
+        <input
+          type="text"
+          name="localidad"
+          id="localidad"
+          placeholder="Localidad"
+          maxlength="30"
+        />
+      </div>
+      <div class="selec_prov">
+        <label for="selec_prov">Selecciona tu Provincia: </label>
+        <select name="selec_prov" id="selec_prov">
+          <option value="selec_prov">Indica tu Provincia</option>
+          <option value="bs_as">Buenos Aires</option>
+          <option value="c_bs_as">CABA</option>
+          <option value="cat">Catamarca</option>
+          <option value="cha">Chaco</option>
+          <option value="chu">Chubut</option>
+          <option value="cba">Córdoba</option>
+          <option value="ctes">Corrientes</option>
+          <option value="en_rs">Entre Ríos</option>
+          <option value="for">Formosa</option>
+          <option value="juj">Jujuy</option>
+          <option value="lpa">La Pampa</option>
+          <option value="la_Ri">La Rioja</option>
+          <option value="mdz">Mendoza</option>
+          <option value="mns">Misiones</option>
+          <option value="nqn">Neuquén</option>
+          <option value="rne">Río Negro</option>
+          <option value="sta">Salta</option>
+          <option value="scr">San Juan</option>
+          <option value="scr">San Luis</option>
+          <option value="scr">Santa Cruz</option>
+          <option value="sfe">Santa Fe</option>
+          <option value="sgo_est">Santiago del Estero</option>
+          <option value="tdf">Tierra del Fuego</option>
+          <option value="tuc">Tucumán</option></select
+        >
+      </div>
+      <div class="cod_postal">
+        <label for="cod_postal">Código Postal: </label>
+        <input
+          type="text"
+          name="cod_postal"
+          id="cod_postal"
+          placeholder="Código Postal"
+          maxlength="8"
+        />
+      </div>
+      <div class="tel">
+        <label for="tel">Teléfono: </label>
+        <input
+          type="text"
+          name="tel"
+          id="tel"
+          placeholder="Ej: 3364274665"
+          maxlength="10"
+        />
+      </div>
+      <div class="email">
+        <label for="email">Email: </label>
+        <input type="text" name="email" id="email" placeholder="nombre@email.com"
+        maxlength="40">
+      </div>
+      <div class="cons_o_comen">
+        <laber for="cons_o_comen">Dejar una consulta o comentario: </laber
+        ></div>
+        <div class="textarea">
+        <textarea
+          name="cons_o_comen"          
+          id="cons_o_comen"
+          cols="40"
+          rows="10"
+        ></textarea>
+      </div>
+        <div class="boton_form">
+          <input type="submit" class="submit" value="Enviar" />
+          <input type="reset" class="reset"  value="Restablecer" />
+        </div>        
+      </form>
+    </main>
+    <footer class="footer_gral">
+      <h4>&copy; CopyRight todos los derechos reservadoss</h4>
+    </footer>
+  </div>
+  </body>
+</html>
